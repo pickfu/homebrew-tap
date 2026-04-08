@@ -28,7 +28,7 @@ class Pickfu < Formula
   end
 
   def install
-    libexec.install Dir["pickfu/*"]
+    libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/pickfu"
   end
 
