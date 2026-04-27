@@ -4,26 +4,26 @@
 class Pickfu < Formula
   desc "PickFu CLI — consumer feedback from your terminal"
   homepage "https://github.com/pickfu/pickfu-cli"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://dl.agents.pickfu.com/releases/v0.6.0/pickfu-v0.6.0-darwin-arm64.tar.gz"
-      sha256 "b852236b0e824aee5447a3497bfb888b9164898d7b4470e7522e8fc67444183e"
+      url "https://dl.agents.pickfu.com/releases/v0.7.0/pickfu-v0.7.0-darwin-arm64.tar.gz"
+      sha256 "bd27a254155abcc12bf9abc9158c6cdc7b8f84e3939f1ff1112ad53f3939f63e"
     else
-      url "https://dl.agents.pickfu.com/releases/v0.6.0/pickfu-v0.6.0-darwin-x64.tar.gz"
-      sha256 "db0f243aa136ceef1ff673994cc293d6c0b41839e7afe6fd6f7a082ccdbe69a8"
+      url "https://dl.agents.pickfu.com/releases/v0.7.0/pickfu-v0.7.0-darwin-x64.tar.gz"
+      sha256 "923a0721920a41d7b24f9cdda79c40c3eed0d3e1f73dc03c7bc32e820139f049"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://dl.agents.pickfu.com/releases/v0.6.0/pickfu-v0.6.0-linux-arm64.tar.gz"
-      sha256 "a71dc57de194bd6d7c2292642ccad28e5074231fd6f2a46cf316c90617416cdb"
+      url "https://dl.agents.pickfu.com/releases/v0.7.0/pickfu-v0.7.0-linux-arm64.tar.gz"
+      sha256 "3ce1895253ab266f4b093df3f4095204c18df06b9fb9faca3f06e5c28233f03d"
     else
-      url "https://dl.agents.pickfu.com/releases/v0.6.0/pickfu-v0.6.0-linux-x64.tar.gz"
-      sha256 "4c4425bbcc9079a79727aa2b89e9e38a40922282983bb29ef6b48256ac270cc4"
+      url "https://dl.agents.pickfu.com/releases/v0.7.0/pickfu-v0.7.0-linux-x64.tar.gz"
+      sha256 "7f36ecbebe43af02e96dd1d48771026b031764714395f51e11b7ce6e69bca563"
     end
   end
 
